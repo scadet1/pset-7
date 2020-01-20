@@ -39,7 +39,7 @@ function endsMeet(values, n) {
 
 function difference(numbers) {
   // write your code here
-  if (numbers == undefined||numbrs < 1||numbers.some(isNaN)) {
+  if (numbers == undefined||numbers < 1||numbers.some(isNaN)) {
       return undefined;
     } else {
       let largest = Math.max.apply(Math, numbers);
